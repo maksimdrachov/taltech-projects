@@ -6,13 +6,17 @@
 
 The goal of this project is to build a proof-of-concept of a drone that is able to operate in a GNSS-denied environment.
 
+Relevant paper: [link](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/52698/eth-5889-02.pdf)
+
 2. Project vision & success criteria
 
-- Reverse engineer communication protocol used on Mavic 3
-- Attach Sensor Module component to drone
-- Fly drone and make sure that data from GPS and localisation component is matched
+- Attach Sensor Module component to bike
+- Ride bike and make sure that data from GPS and localisation component is matched
 
-3. Requirements
+Optional:
+- Reverse engineer communication protocol used on Mavic 3
+
+1. Requirements
 
 - GNU/Linux computer (or macOS)
 - Digital analyzer/Oscilloscope
@@ -21,7 +25,6 @@ The goal of this project is to build a proof-of-concept of a drone that is able 
 
 4. Cost & Budget
 
-- Mavic 3 (2100 eu)
 - [Optical Flow and Distance Sensor Module](https://arkelectron.com/product/ark-flow/) (250$)
 
 ## Project 2: Implement named topics in Pycyphal
